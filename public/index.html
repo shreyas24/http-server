@@ -1,12 +1,19 @@
 <html>
   <head>
-    <title>node.js http server</title>
+    <title>Node.js based http server</title>
   </head>
   <body>
 
     <h1>Serving up static files like they were turtles strapped to rockets.</h1>
 
-    <img src="./img/turtle.png"/>
+    <img src="./img/turtle.png"/ height=400>
+	<form method="post" action="/" onsubmit="return confirm('Are you sure you want to submit?')">
+    <h4>
+	Name:<input type="text" name="name">
+    Email:<input type="text" name="email">
+    <input type="submit" value="Submit">
+	</h4>
+</form>
   </body>
 </html>
 
