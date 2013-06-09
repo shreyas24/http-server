@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # http-server: a command-line http server
 
 `http-server` is a simple, zero-configuration command-line http server.  It is powerful enough for production usage, but it's simple and hackable enough to be used for testing, local development, and learning.
@@ -59,3 +60,7 @@ This will install `http-server` globally so that it may be run from the command 
 `-h` or `--help` Displays a list of commands and exits.
 
 `-c` Set cache time (in seconds) for cache-control max-age header, e.g. -c10 for 10 seconds. To disable caching, use -c-1.
+=======
+httpPost-server
+===============
+>>>>>>> 09972c1582feb6b2c3d7f084cdea17e4c42a1d80
